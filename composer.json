@@ -1,5 +1,8 @@
 {
-    "name": "oxid-esales/flow-theme",
+    "name": "oxidio/theme-flow",
+    "replace": {
+        "oxid-esales/flow-theme": "self.version"
+    },
     "description": "This is Flow Theme for OXID eShop.",
     "type": "oxideshop-theme",
     "keywords": [
@@ -13,6 +16,10 @@
     ],
     "minimum-stability": "dev",
     "extra": {
+        "branch-alias": {
+            "dev-oxidio-3.x": "3.x-dev",
+            "dev-oxidio-master": "4.x-dev"
+        },
         "oxideshop": {
             "target-directory": "flow",
             "assets-directory": "out/flow",
