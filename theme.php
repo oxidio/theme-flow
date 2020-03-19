@@ -110,6 +110,12 @@ $aTheme = array(
             'value' => 0,
         ),
         array(
+            'group' => 'header',
+            'name'  => 'stickyHeader',
+            'type'  => 'bool',
+            'value' => 1,
+        ),
+        array(
             'group' => 'footer',
             'name'  => 'blFooterShowHelp',
             'type'  => 'bool',
@@ -360,12 +366,6 @@ $aTheme = array(
             'name'  => 'sGoogleMapsAddr',
             'type'  => 'str',
             'value' => 'OXID eSales AG, Bertoldstraße 48, 79098 Freiburg',
-        ),
-        array(
-            'group' => 'footer',
-            'name'  => 'sGooglePlusUrl',
-            'type'  => 'str',
-            'value' => 'https://plus.google.com',
         ),
         array(
             'group' => 'googlets',

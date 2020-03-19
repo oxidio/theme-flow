@@ -64,6 +64,9 @@ $aLang = array(
     'SHOP_THEME_sCatPromotionsize'                  => 'Category picture size for promotion on startpage (width*height)',
     'HELP_SHOP_THEME_sCatPromotionsize'             => 'Category promotion on start page needs special size for category pictures. Define size of those pictures here.',
 
+    'SHOP_THEME_stickyHeader'                       => 'Use sticky header',
+    'HELP_SHOP_THEME_stickyHeader'                  => 'The header sticks on the top when scrolling down the page.',
+
     'SHOP_THEME_blFooterShowHelp'                   => 'Use help link',
     'SHOP_THEME_blFooterShowLinks'                  => 'Use Links link',
     'SHOP_THEME_blFooterShowNewsletter'             => 'Use newsletter link',
@@ -107,8 +110,6 @@ $aLang = array(
     'HELP_SHOP_THEME_sBlogUrl'                      => 'E.g.: http://blog.oxid-esales.com',
     'SHOP_THEME_sYouTubeUrl'                        => 'YouTube Channel-URL',
     'HELP_SHOP_THEME_sYouTubeUrl'                   => 'E.g.: https://www.youtube.com/user/oxidesales',
-    'SHOP_THEME_sGooglePlusUrl'                     => 'Google+ Page-URL',
-    'HELP_SHOP_THEME_sGooglePlusUrl'                => 'E.g.: https://plus.google.com/114133952363540971062',
 
     'SHOP_THEME_sGoogleMapsAddr'                    => 'Your postal address',
     'HELP_SHOP_THEME_sGoogleMapsAddr'               => 'E.g.: OXID eSales AG, Bertoldstraße 48, 79098 Freiburg',
